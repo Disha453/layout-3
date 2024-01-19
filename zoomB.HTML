@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<HTML>
+
+<head>
+
+
+    <style>
+        .image-box {
+            width: 300px;
+            overflow: hidden;
+        }
+
+        .image {
+            width: 300px;
+            height: 200px;
+            background: url("https://picsum.photos/300/200/");
+            background-position: center;
+            -webkit-transition:  3s;
+            -moz-transition: 5s ;
+            -ms-transition:  5s ;
+            -o-transition: 5s ;
+            transition:  5s ;
+        }
+
+        .image:hover {
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            /* IE 9 */
+            transform: scale(1.2);
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="image-box">
+        <div class="image"></div>
+    </div>
+
+</body>
+
+</HTML>
